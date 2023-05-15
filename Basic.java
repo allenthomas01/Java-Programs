@@ -22,19 +22,33 @@ System.out.printf("| %-10s | %-8s | %4s |%n", "Boolean",  "boolean", "0001");
 System.out.printf("--------------------------------%n");
 }
 }
+
+class PrimitiveDataTypes{
+    void readdata(){
+    int integer;
+    float number;
+    boolean bool;
+    }
+}
 public class Basic {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int choice;
         
         do{
-            System.out.println("0.End 1.Output-Formatting  ");
+            System.out.println("0.End 1.Output-Formatting 2.Primitive-data-types  ");
             System.out.print("Enter your choice(number): ");
             choice = sc.nextInt();
             switch(choice){
                 case 1 :{
                     OutputFormat obj1 = new OutputFormat();
                     obj1.stringformat();
+                }
+                case 2:{
+                    PrimitiveDataTypes obj2 = new PrimitiveDataTypes();
+                    obj2.readdata();
+
+
                 }
             }
         }while(choice!=0);
