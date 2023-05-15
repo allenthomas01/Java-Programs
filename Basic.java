@@ -24,10 +24,13 @@ System.out.printf("--------------------------------%n");
 }
 
 class PrimitiveDataTypes{
+    Scanner sc = new Scanner(System.in);
     void readdata(){
-    int integer;
-    float number;
-    boolean bool;
+    int integer = sc.nextInt();
+    float number = sc.nextFloat();
+    String str = sc.nextLine();
+    boolean bool = sc.nextBoolean();
+    double d = sc.nextDouble();
     }
 }
 public class Basic {
