@@ -23,8 +23,12 @@ Some programs written in Java.
         <td>Program to multiply two matrices.</td>
         <td><a href="MatrixMultiplication.java">click here </a></td> 
     </tr>
-    <tr>
-        <td>Program to add two polynomials.</td>
-        <td><a href="PolynomialAddition.java">click here </a></td> 
+      <tr>
+        <td>Program to demonstrate linked list.</td>
+        <td><a href="Linkedlist.java">click here </a></td> 
+    </tr>
+        <tr>
+        <td>Program to demonstrate basic data types.</td>
+        <td><a href="Basic.java">click here </a></td> 
     </tr>
 </table>
